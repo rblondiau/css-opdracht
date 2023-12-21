@@ -1,0 +1,88 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+// @font-face {
+//   font-family: icons;
+//   src: url("icons.ttf");
+// }
+
+:root {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: $bggrey;
+  font-family: Roboto, sans-serif;
+  * {
+    line-height: calc(2px + 2ex + 2px);
+  }
+  .figuur1 {
+    background-color: #56e39f;
+  }
+  .figuur1 > div:nth-child(1) {
+    background-color: #56e39f;
+  }
+  .figuur1 > div:nth-child(2) {
+    background-color: #59c9a5;
+  }
+  .figuur1 > div:nth-child(3) {
+    background-color: #5b6c5d;
+  }
+  .figuur1 > div:nth-child(4) {
+    background-color: #27476e;
+  }
+  /* alle kleuren voor dit vlak: #56E39F  #59C9A5  #5B6C5D  #27476E*/
+  .figuur2 {
+    background-color: #f1d302;
+  }
+  .figuur2 > div:nth-child(1) {
+    background-color: #56e39f;
+  }
+  .figuur2 > div:nth-child(2) {
+    background-color: #c1292e;
+  }
+  .figuur2 > div:nth-child(3) {
+    background-color: #235789;
+  }
+  .figuur2 > div:nth-child(4) {
+    background-color: #f0a202;
+  }
+  /* alle kleuren voor dit vlak: #F1D302  #C1292E  #235789  #F0A202 */
+  .figuur3 {
+    background-color: #b3001b;
+  }
+  .figuur3 > div:nth-child(1) {
+    background-color: #b3001b;
+  }
+  .figuur3 > div:nth-child(2) {
+    background-color: #f4e04d;
+  }
+  .figuur3 > div:nth-child(3) {
+    background-color: #54f2f2;
+  }
+  .figuur3 > div:nth-child(4) {
+    background-color: #5eb1bf;
+  }
+  /* alle kleuren voor dit vlak: #B3001B  #F4E04D  #54F2F2  #5EB1BF */
+  .figuur4 {
+    background-color: #ff715b;
+  }
+  .figuur4 > div:nth-child(1) {
+    background-color: #ff715b;
+  }
+  .figuur4 > div:nth-child(2) {
+    background-color: #30332e;
+  }
+  .figuur4 > div:nth-child(3) {
+    background-color: #62bbc1;
+  }
+  .figuur4 > div:nth-child(4) {
+    background-color: #ec058e;
+  }
+  /* alle kleuren voor dit vlak: #FF715B  #30332E  #62BBC1  #EC058E */
+}
