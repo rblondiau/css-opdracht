@@ -9,8 +9,8 @@
     "build": "vite build",
     "preview": "vite preview --open --host",
     "predeploy": "npm run build",
-    "deploy": "surge ./dist yourfrontenddomain.surge.sh",
-    "postdeploy": "start https://yourfrontenddomain.surge.sh"
+    "deploy": "surge ./dist ronchiecssistheshit.surge.sh",
+    "postdeploy": "start https://ronchie-cssistheshit.surge.sh"
   },
   "author": "David Verhulst",
   "license": "ISC",

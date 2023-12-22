@@ -199,21 +199,26 @@ footer ul li a {
     background-color: lightblue;
   }
 
-  // main {
-  //   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  //   display: grid;
-  // }
+  h1 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
 
-  // .billboard,
-  // .overons {
-  //   grid-column-start: 1;
-  //   grid-column-end: 6;
-  // }
+  header {
+    display: flex;
+  }
 
-  // main .section {
-  //   grid-column-start: 1;
-  //   grid-column-end: 6;
-  // }
+  header nav a {
+    display: flex;
+    text-decoration: none;
+    color: $black;
+    align-content: flex-end;
+  }
+
+  header nav a.mobiel {
+    display: none;
+  }
 
   .overons {
     display: grid;
@@ -225,10 +230,9 @@ footer ul li a {
     grid-column-end: 4;
   }
 
-  .watwedoe {
+  .main .watwedoen {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .sectie1 {
