@@ -25,18 +25,6 @@ body {
     background-color: #56e39f;
   }
 
-  .figuur1 > div:nth-child(1) {
-    background-color: #56e39f;
-  }
-  .figuur1 > div:nth-child(2) {
-    background-color: #59c9a5;
-  }
-  .figuur1 > div:nth-child(3) {
-    background-color: #5b6c5d;
-  }
-  .figuur1 > div:nth-child(4) {
-    background-color: #27476e;
-  }
   /* alle kleuren voor dit vlak: #56E39F  #59C9A5  #5B6C5D  #27476E*/
   .figuur2 {
     background-color: #f1d302;
@@ -180,10 +168,92 @@ input[type="submit"] {
   width: 100%;
 }
 
+section h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+footer {
+  display: grid;
+  background-color: $black;
+  color: $white;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: $white;
+}
+
 @media screen and (min-width: 900px) {
-  /* Your styles for screens 900 pixels wide or smaller go here */
   body {
     background-color: lightblue;
   }
-  /* Add more styles as needed */
+
+  // main {
+  //   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  //   display: grid;
+  // }
+
+  // .billboard,
+  // .overons {
+  //   grid-column-start: 1;
+  //   grid-column-end: 6;
+  // }
+
+  // main .section {
+  //   grid-column-start: 1;
+  //   grid-column-end: 6;
+  // }
+
+  .overons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .overons .hoofding {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .watwedoe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .sectie1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .figuur1,
+  .figuur2,
+  .figuur3,
+  .figuur4 {
+    height: 100px;
+    width: 100px;
+  }
+
+  .figuur1 > div:nth-child(1) {
+    background-color: #56e39f;
+  }
+  .figuur1 > div:nth-child(2) {
+    background-color: #59c9a5;
+  }
+  .figuur1 > div:nth-child(3) {
+    background-color: #5b6c5d;
+  }
+  .figuur1 > div:nth-child(4) {
+    background-color: #27476e;
+  }
 }
