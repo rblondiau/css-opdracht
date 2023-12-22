@@ -86,3 +86,85 @@ body {
   }
   /* alle kleuren voor dit vlak: #FF715B  #30332E  #62BBC1  #EC058E */
 }
+
+body {
+  line-height: 1.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header nav a {
+  display: none;
+  text-decoration: none;
+  color: $black;
+}
+
+/* Style for the 'Menu' link with the class 'mobiel' */
+header nav a.mobiel {
+  display: inline-block; /* or display: block; depending on your layout */
+  /* Add any additional styling for the 'Menu' link */
+}
+
+main {
+  padding: 2.5rem 1rem 2.5rem 1rem;
+}
+
+.billboard {
+  background-image: url(images/achtergrond-nacht.png);
+  background-size: cover;
+  background-position: absolute;
+  color: $white;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  // padding-left: 1rem;
+  // padding-right: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.billboard p {
+  font-size: 1.8;
+  font-style: italic;
+}
+
+main div {
+  margin-bottom: 2rem;
+}
+
+.hoofding p {
+  font-style: italic;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type="submit"] {
+  background-color: $black;
+  color: $white;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 900px) {
+  /* Your styles for screens 900 pixels wide or smaller go here */
+  body {
+    background-color: lightblue;
+  }
+  /* Add more styles as needed */
+}
