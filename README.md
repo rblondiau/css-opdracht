@@ -13,3 +13,4 @@ Check de package.json welke de nodig vite scripts bevat.
 Zorg voor minimaal 5 commits. ben je bijna klaar. maak dan een develop branch waar je 1 feature afwerkt met 3 commits daarna merge je alles naar je main en deploy je opdracht op surge.
 
 SURGE LINK: https://ronchie-cssistheshit.surge.sh
+SURGE LINK: https://ronchie-cssistheshit.surge.sh
